@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    /* font-size: 25px; */
+}
+#navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    font-family:'Bree',Serif;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1 ;
+    opacity: 0.5;
+}
+
+/*To edit in logo*/
+#logo img{
+    margin: 3px 5px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    /* padding: 7px 10px; */
+}
+
+#navbar ul{  
+    display: flex;
+    font-family: 'Baloo Bhai',cursive;
+}
+#navbar ul li{
+    list-style: none;
+    /* padding: 10px 50px; */
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 0.8rem 2.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    margin:2px 2px ;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Home section styling*/
+
+#home{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 500px;
+    height: 400px;
+    font-family: 'Baloo',cursive;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    /* top: 0px; */
+    background:url('../image/pexels-photo-1092730.jpeg') no-repeat center center/cover;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;
+    opacity: 1;
+}
+#homeheading{
+    display: flex;
+    color: white;
+    font-family: 'Bree', serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+}
+#home p{
+    margin: 5px 5px;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 138px;
+    height: 34px;
+    background-color:rgb(228, 161, 161);
+    margin: 20px;
+    cursor: pointer;
+}
+
+/*Middle Section Styling*/
+.container{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 0px 12px;
+    position: relative;
+    top: 70px;
+}
+.box{
+    border: 1px solid brown;
+    padding: 21px;
+    margin: 29px 25px;
+    background-color: rgb(247 247 247);
+    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 20px;
+}
+.service-images{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+}
+.midheadings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+section>h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Baloo Bhai',cursive;
+    position: relative;
+    top: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*section3 styling*/
+
+.clientlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+.clientlogo::before{
+    content: "";
+    position: absolute;
+    top: -150px;
+    background:url('../image/spices-black-background-space-text_169016-3118.jpg') no-repeat center center/cover;
+    height:400px;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;
+    opacity: 0.6;
+}
+.clientimages{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+}
+.section-3-4 h2{
+    font-size: 60px;
+    font-family: 'Bree',serif;
+}
+
+/*Contact us styling*/
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    top: 1448px;
+    background: url(../image/bg-contact.jpg) no-repeat center center/cover;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;   
+    opacity: 0.6;
+}
+#lastheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 90px 0px;
+}
+.form input {
+    display: flex;
+    width: 580px;
+    height: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+}
+textarea{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 580px;
+    padding: 10px;
+    margin: 3px;
+}
+#last button{
+    background-color: rgb(133, 130, 130);
+}
+.btn1{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 580px;
+    height: 34px;
+    background-color: rgb(182, 178, 178);
+    margin: 20px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 212px 0px 0px 0px;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.center{
+    text-align: center;
+}

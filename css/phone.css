@@ -1,0 +1,98 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    font-size: 37px;
+}
+
+/*Home*/
+#home{
+    height: 50px;
+}
+#home p{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    width: 700px;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+#homeheading{
+    width: 900px;
+    /* margin: 0px 0px; */
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 140px;
+    color: black;
+    font-size: 70px;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 350px;
+}
+
+/*Middle section or Services*/
+.container{
+    /* display: flex; */
+    flex-direction: column;
+    top: 160px;
+}
+.middle>h2{
+    display: flex;
+    position: relative;
+    top: 210px;
+    font-size: 70px;
+}
+
+/*Section 3 or client section*/
+
+.clientlogo::before{
+    top: 1px;
+    height: 500px;
+    top: -30px;
+}
+.section-3-4>h2{
+    display: flex;
+    position: relative;
+    top: 240px;
+    font-size: 90px;
+}
+.clientimages{
+    position: relative;
+    top: 200px;
+}
+
+
+/* Section 4 or Contact us  */
+.contact{
+    position: relative;
+    top: 300px;
+    font-size: 40px;
+}
+#lastheading{
+    position: relative;
+    top: 350px;
+    font-size: 90px;
+}
+.form input{
+    position: relative;
+    font-size: 30px;
+}
+.contact::before{
+    position: absolute;
+    display: flex;
+}
+
+
+
+
+/* footer */
+footer{
+    position: relative;
+    top: 200px;
+}
